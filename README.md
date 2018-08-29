@@ -6,4 +6,4 @@ The algorithm operates by decomposing $[0,1]^d$ into hyper-rectangles as follows
 Given a current decomposition, choose one of the hyper-rectangles (according to the maximal value of a criterion to be defined) and trisect it along the longest axis.
 The central sub-hyperrectangle retains its central function value, while the function is evaluated at the centers of the two other hyperrectangles.
 
-The code here use c++ to implement the new global optimization algorithm above. It use Rastrigin function as test objective function.
+The code here has different versions. It use c++/matlab to implement the new global optimization algorithm above. It use Rastrigin function as test objective function.
